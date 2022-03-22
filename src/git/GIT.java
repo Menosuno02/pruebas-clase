@@ -10,7 +10,9 @@ public class GIT {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        int num = 3;
+        String nombre = "Alejandro";
         System.out.println("Prueba GIT");
+        System.out.println(nombre + ", num de alumno: " + num);
     }
-
 }

@@ -12,6 +12,7 @@ public class GIT {
     public static void main(String[] args) {
         int num = 3;
         String nombre = "Alejandro";
+        System.out.println("Sesión iniciada. ¡Bienvenido/a!");
         System.out.println("Prueba GIT");
         System.out.println(nombre + ", num de alumno: " + num);
         System.out.println("Tabla de multiplicar de " + num + "\n------------");

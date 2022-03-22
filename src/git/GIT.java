@@ -14,6 +14,7 @@ public class GIT {
         String nombre = "Alejandro";
         System.out.println("Prueba GIT");
         System.out.println(nombre + ", num de alumno: " + num);
+        System.out.println("Tabla de multiplicar de " + num + "\n------------");
         for (int i = 0; i <= 10; i++) {
             System.out.println(num + " x " + i + " = " + (num * i));
         }

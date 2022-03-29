@@ -9,9 +9,11 @@ import java.util.Vector;
 public class Clase2 {
 
     private Vector<String> personas;
+    private double numClase;
 
     public Clase2(Vector<String> personas) {
         this.personas = personas;
+        this.numClase = (Math.random() + 1) * 100;
     }
 
     @Override

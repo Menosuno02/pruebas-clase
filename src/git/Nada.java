@@ -12,6 +12,14 @@ public class Nada {
         this.num = num;
     }
 
+    public String carga() {
+        if (num % 2 == 0) {
+            return "Si";
+        } else {
+            return "No";
+        }
+    }
+
     public int getNum() {
         return num;
     }

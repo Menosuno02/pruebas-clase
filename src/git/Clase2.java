@@ -16,6 +16,10 @@ public class Clase2 {
         this.numClase = (Math.random() + 1) * 100;
     }
 
+    public double importe() {
+        return (personas.size() * numClase);
+    }
+
     @Override
     public String toString() {
         return "Clase2{" + "personas=" + personas + '}';
